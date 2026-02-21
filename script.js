@@ -20,7 +20,7 @@ function showError(msg){
 function handleLogin(){
 
   if(!pinInput.value){
-    showError("Hey! Enter something first 😄");
+    showError("Hey! Pehle Password to dal Moti 😄");
     return;
   }
 
@@ -38,7 +38,7 @@ function handleLogin(){
 
   }else{
     attempts++;
-    showError("Nice try 😏 but not correct.");
+    showError("Nice try 😏 but acche se soch.");
     pinInput.value="";
     pinInput.focus();
 
