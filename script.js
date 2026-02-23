@@ -1,4 +1,4 @@
-const STORED_HASH="U3VuZGF5";
+const STORED_HASH="ZmFjZWJvb2s="; // "facebook" in base64
 
 const pinInput=document.getElementById("pinInput");
 const unlockBtn=document.getElementById("unlockBtn");
